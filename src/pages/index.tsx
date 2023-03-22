@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from 'next/image'
+import HeroImage from "../../public/hero-img.png";
 
 export default function Home() {
   return (
@@ -30,7 +31,11 @@ export default function Home() {
                 <p className="para mb-10 w-8/12">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
                 <button className="btn btn-primary">SEE PRODUCT</button>
               </div>
-              <Image src="/hero-image.svg" alt="Hero Image" className="hero-image" width="600" height="600" />
+              <Image
+                src={HeroImage}
+                placeholder="blur"
+                alt="Hero Image"
+              />
             </div>
           </div>
         </section>
