@@ -54,3 +54,8 @@ body {
 .in-air-effect {
   filter: drop-shadow(5px 20px 15px #898989);
 }
+
+.feature-zx9-speaker {
+  background-color: #D87D4A;
+  height: 560px;
+}

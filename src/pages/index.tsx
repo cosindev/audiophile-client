@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import CategoriesSection from "components/CategoriesSection";
 import HeroSection from "components/HeroSection";
+import FeatureZx9Speaker from "components/FeatureZx9Speaker";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <CategoriesSection />
+        <FeatureZx9Speaker />
       </main>
     </>
   );
